@@ -32,6 +32,9 @@ TO HAVE IN MIND:
 
 1. While on [this page](https://github.com/jungby/Braillenius) click the green button "Code" and then "Download ZIP".
 
+    _You can also find the executables on this GoogleDrive folder and skip the steps while I learn about github releases:_ _[Google Drive](https://drive.google.com/drive/folders/1GlokmAGRGnUGxVmQ7VoxxLIq1r4Zowyu?usp=sharing)_
+
+
 [![screenshot-1.png](https://i.postimg.cc/ZnWcs5SV/screenshot-1.png)](https://postimg.cc/9wjZrVz7)
 
 _If you are familiar with git clone it instead._
@@ -48,7 +51,9 @@ What files should I open?
 1. Click [OpenScad for 32-bit systems](https://files.openscad.org/OpenSCAD-2021.01-x86-32.zip) or [OpenScad for 64-bit systems](https://files.openscad.org/OpenSCAD-2021.01-x86-64.zip).
 2. Go to the folder where you saved braillenius, then go to the 1.2 version and save the .zip file there.
 3. Unzip the file you just downloaded.
-[![extract-file.gif](https://i.postimg.cc/hPvsmd4W/extract-file.gif)](https://postimg.cc/PPG1sN82)
+
+    [![extract-file.gif](https://i.postimg.cc/hPvsmd4W/extract-file.gif)](https://postimg.cc/PPG1sN82)
+
 4. (Optional) Delete the .zip file.
 
 #### **HOW TO INSTALL A FONT AND USE IT ON THE TERMINAL**
