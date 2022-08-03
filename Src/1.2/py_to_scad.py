@@ -1,9 +1,8 @@
+from fileinput import filename
 import default
 import re
 import subprocess
-from pathlib import Path
-import scad_to_stl
-from os import listdir
+from os import listdir, remove
 
 def pytoscad(filename, originaltxt):
     lineas_traducir = dict()
@@ -110,11 +109,11 @@ def pytoscad(filename, originaltxt):
                 f'trad{translate}("{to_translate}");\n\n')
             created_file.close()
 
-def conversion():
+def conversion(filename):
     files = listdir('.')
     for f in files:
-        if f.find(".scad") >= 0:                                    #   gets all .scad files in directory
-            of = f.replace('.scad', '.stl')                         #   name of the outfile .stl
-            cmd = ["openscad-2021.01\openscad.exe", "-o", of, f]    #   creates openscad command
-            print(cmd)
+        if f == f"{filename}.scad":                                   
+            of = f.replace('.scad', '.stl')                         
+            cmd = ["openscad-2021.01\\openscad.exe", "--export-format=binstl", "--render", "-o", of, f]
             subprocess.run(cmd)
+    remove(f"{filename}.scad")
