@@ -77,5 +77,5 @@ Previous features plus:
 
 ## Contact me
 For now, the only social media I am willing to share are:
-* Discord: laura#5939
-* Twitter: wildhxrmony
+* Discord: jungby.exe
+* Twitter: meowrasic
